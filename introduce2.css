@@ -1,0 +1,126 @@
+body{
+    background-color: greenyellow;
+}
+
+.frame{
+    margin: 30px 60px;
+    display: inline;
+    flex-direction: column;
+}
+/*navigator*/
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+
+.site-name{
+    margin: 0;
+    font-family: "Happiness-Sans-Title", sans-serif;
+    font-size: 40px;
+}
+li{
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+}
+
+ul{
+    margin: 0px;
+}
+
+.nav-menu{
+    font-family: "Happiness-Sans-Title", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+
+/*dashboard*/
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px;
+}
+h1{
+    font-family: "Happiness-Sans-Title", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+
+}
+
+.sample{
+    background-color: orangered;
+    -webkit-text-stroke: 1px black;
+
+}
+
+.sample:hover{
+    background-color: transparent;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+}
+.highlight{
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+.highlight:hover{
+    background-color: orangered;
+    color: black;
+    transition: none;
+}
+.type1:hover{
+    background-color: mediumpurple;
+}
+.type3:hover{
+    background-color: mediumpurple;
+}
+.type4{
+    font-family: "Happiness-Sans-Title", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    background-color: transparent;
+    color: black;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+}
+.type4:hover{
+    -webkit-text-stroke: 1px black;
+    background-color: transparent;
+}
+
+/*우선순위*/
+.ranking{
+    font-family: "Happiness-Sans-Title", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    text-align: right;
+}
+
+/*윙크하는 오렌지*/
+.wink{
+    width: 270px;
+    height: 270px;
+    margin-left: auto;
+    display: block;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+}
